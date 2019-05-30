@@ -1,49 +1,53 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Jacob</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Jacob Zamano</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+        <div class="header">
+            <div class="name">
+                <h1>Jacob Zamano</h1>
+            </div>
 
-<body>
+            <div class="button">
+                <a href="contact.html" class="navbutton" id="leftline">contact</a>
+                <a href="portfolio.html" class="navbutton" id="leftline">portfolio</a>
+                <a href="index.html" class="navbutton">home</a>
+            </div>
 
-  <header id="navbar">
-    <div class="container">
-      <a href="index.html" id="logo">Jacob Zamano</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
+        </div>
+        <div class="contact-form-box">
+            <h1 class="contact-text">Contact</h1>
+            <hr/ class="contact-line-break">
+            <form>
+                <div>
+                  <label>Name</label>
+                  <br>
+                  <textarea id="name">John Smith</textarea>
+                </div>
+                <div>
+                  <label>E-mail</label>
+                  <br>
+                  <textarea id="name">example@gmail.com</textarea>
+                </div>
+                <div>
+                  <label>Message</label>
+                  <br>
+                  <textarea id="msg">message here!</textarea>
+                </div>
+              </form>
+              <button id="submit">Submit!</button>
+        </div>
+        <div class="footer">
+            <div class="footer-text">
+                <p>CopyRight &copy</p>
+            </div>
+        </div>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
-
-      <form id="contact-form">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-        <input type="submit">
-      </form>
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
-</body>
-
+    </body>
 </html>
